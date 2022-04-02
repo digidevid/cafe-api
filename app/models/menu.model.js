@@ -3,7 +3,6 @@ module.exports = (mongoose) => {
 		{
 			name: String,
 			type: Number,
-			index: Number,
 			price: Number,
 			isAvailable: Boolean,
 			isNewMenu: Boolean,

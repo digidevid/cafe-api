@@ -17,7 +17,6 @@ exports.create = (req, res) => {
 	const menu = new Menu({
 		name: req.body.name,
 		type: req.body.type,
-		index: req.body.index,
 		price: req.body.price,
 		isAvailable: req.body.isAvailable,
 		isNewMenu: req.body.isNewMenu,
